@@ -9,15 +9,15 @@ function calculate_grade(num) {
     } else if (grade < 40) {
         mark_form.innerHTML = "You've got an F from this subject";
     } else if (grade < 50) {
-        mark_form.innerHTML = "You've got an E form this subject";
+        mark_form.innerHTML = "You've got an E from this subject";
     } else if (grade < 60) {
-        mark_form.innerHTML = "You've got an D form this subject";
+        mark_form.innerHTML = "You've got an D from this subject";
     } else if (grade < 70) {
-        mark_form.innerHTML = "You've got an C form this subject";
+        mark_form.innerHTML = "You've got an C from this subject";
     } else if (grade < 80) {
-        mark_form.innerHTML = "You've got an B form this subject";
+        mark_form.innerHTML = "You've got an B from this subject";
     } else if (grade <= 100) {
-        mark_form.innerHTML = "You've got an A form this subject";
+        mark_form.innerHTML = "You've got an A from this subject";
     } else {
         mark_form.innerHTML = "Nice story..."; // it can't be over 100%
     }
