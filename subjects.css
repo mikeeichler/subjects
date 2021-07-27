@@ -1,0 +1,27 @@
+body {
+    background-color: teal;
+    color: aliceblue;
+}
+.content {
+    margin: auto; /* centers the content in page */
+    max-width: 80%;
+    font-family: sans-serif;
+}
+.in40 {
+    font-size: medium;
+    padding: 10px;
+    width: 40px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: None; /* gets rid of the focus-box */
+    background-color: teal;
+    color: aliceblue;
+}
+
+label {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    min-width: 300px;
+} 

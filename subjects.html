@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Subjects</title>
+        <link rel="stylesheet" href="subjects.css">
+    </head>
+    <!-- start printing as soon as the page is ready -->
+    <body> 
+        <div class="content">
+            <h3>Subjects</h3>
+            <div id="subject_form">
+                <label for="sub_num">How many subjects do you take?:</label>
+                <!-- use onkeyup, onkeypress would make the function run before the number was ready -->
+                <!-- type="text" inputmode="numeric" prevents the selector arrows from showing -->
+                <input class="in40" type="text" inputmode="numeric" id="sub_num" name="sub_num" onkeyup="make_forms()"><br>
+            </div>
+            <div id="grade_form">
+            <!-- the grade inputs will be added by javascript dynamically here -->
+            </div>
+        </div>
+        <script src="subjects.js"text/javascript"></script>
+    </body>
+</hmtl>
